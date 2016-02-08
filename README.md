@@ -1,6 +1,8 @@
 /***** Collaborative Chat *****/
 
-This is a chat made with Node.js with some collaborative aspects for the Groupware and Collaborative Interaction course in the M2R Interaction. In addition to the basic chat feature, the user can modify everyone messages by clicking on it. We can see the modification between each message's version to know who did what.
+This is a chat with some collaborative aspects made by Cedric Portaneri in January 2016 (in two weeks) with Node.js. This school project was made for the Groupware and Collaborative Interaction course in the M2R Interaction. 
+
+In addition to the basic chat feature, the user can modify everyone messages by clicking on it. We can see the modification between each message's version to know who did what.
 
 --- OS Compatibility ---
 
