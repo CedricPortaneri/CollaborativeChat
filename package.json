@@ -1,0 +1,13 @@
+{
+  "name":"Collaborative Chat",
+  "author":"cedricPortaneri",
+  "dependencies": {
+  	"socket.io": "*",
+  	"express": "*",
+  	"jade": "*",
+	"diff-match-patch": "*"
+  },
+  "scripts": {
+  	"start": "node server.js"
+  }
+}

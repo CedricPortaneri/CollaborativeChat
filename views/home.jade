@@ -1,0 +1,64 @@
+doctype html
+html
+	head
+	
+		title Chat
+		
+		// Link the view to the css
+		link(rel="stylesheet", href="style.css")
+		
+		// Link the view to the javascript clent script and libraries
+		script(src='http://code.jquery.com/jquery-1.7.1.min.js')
+		script(src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js')
+		script(src="/socket.io/socket.io.js")
+		script(src="client.js")
+		
+	body
+		// Main page
+		div.container#page
+		
+			// Top Title
+			div.navbar.navbar-fixed-top
+				div.navbar-inner
+					div.container
+						a.brand(href="#") Welcome to the Collaborative Chat
+		
+			// Top Title
+			div.navbar.default
+				div.navbar-inner
+					div.container
+						// Nomber of user in the chat
+						div#nbUsersDiv
+							a.brand(href="#")  
+								span#nbUsers
+								|  user(s) are connected.	
+			
+		
+						
+			// Chat visualisation
+			div#messages
+			
+			// Writing part
+			div.row#box
+				input(type='text')#messageInput
+				div.bouttons
+				
+					// Submit your message
+					button.btn#submit(data-loading-text="Send") Send     
+					
+
+			
+
+	
+	// Submit your pseudo page
+	div.modal.fade#Identifiaction
+		div.modal-header
+			h3 What is your name?
+		div.modal-body
+			p Login :
+			input(type='text')#pseudoInput
+			div.alert.alert-error#alertPseudo
+				| Already picked! Please change your name.
+		div.modal-footer
+			button.btn.btn-primary#pseudoSubmit Go to the chat
+	
