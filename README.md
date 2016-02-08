@@ -12,7 +12,7 @@ Windows only
 - socket.io
 - express.js
 - diff-match-patch.js
-- Jade: Htlm template generator
+- Jade: HTML template generator
 - Bootstrap
 
 --- HOW TO LAUNCH THE CHAT ---
