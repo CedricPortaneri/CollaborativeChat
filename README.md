@@ -8,12 +8,12 @@ Windows only
 
 --- Library Used ---
 
-node.js
-socket.io
-express.js
-diff-match-patch.js
-Jade: Htlm template generator
-Bootstrap
+-node.js
+-socket.io
+-express.js
+-diff-match-patch.js
+-Jade: Htlm template generator
+-Bootstrap
 
 --- HOW TO LAUNCH THE CHAT ---
 
